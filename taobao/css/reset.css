@@ -57,11 +57,19 @@ body{
 }
 
 .c4{
-    color: #f50;
+    color: #f40;
 }
 
 .c5{
-    color: #f50;
+    color: #f40;
+}
+
+.mr7{
+    margin-right: 7px;
+}
+
+.mr5{
+    margin-right: 5px;
 }
 
 .mt10{
