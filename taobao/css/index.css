@@ -127,3 +127,150 @@
     background: url(../images/bg.png) no-repeat;
     margin-right: 0px;
 }
+
+/* 头部搜索 */
+#headSearch{
+    background: #fff;
+    padding: 24px 0 10px 0;
+}
+
+#headSearch h1 a{
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../images/logo.png) center;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+#headSearch .qrcode{
+    width: 72px;
+    height: 86px;
+    position: relative;
+    margin-right: 110px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+#headSearch .qrcode img{
+    width: 62px;
+    height: 62px;
+} 
+
+#headSearch .close{
+    position: absolute;
+    left: -16;
+    top: -1px;
+
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #ddd;
+    cursor: pointer;
+}
+
+#headSearch .search{
+    width: 630px;
+    margin: 0px auto;
+    padding-left: 17px;
+}
+
+#headSearch .searchTab{
+    height: 22px;
+}
+#headSearch .searchTab li{
+    float: left;
+    width: 36px;
+    line-height: 22px;
+    margin-right: 4px;
+    text-align: center;
+    color: #f40;
+    cursor: pointer;
+}
+
+#headSearch .searchTab li:hover{
+    background: #ffeee5;
+}
+
+#headSearch .searchTab li.active{
+    color: #fff;
+    font-weight: bold;
+
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+    border-radius: 6px 6px 0px 0px;
+}
+
+#headSearch .searchContent{
+    height: 40px;
+}
+
+#headSearch .searchBox{
+    width: 554px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ff5000;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#headSearch .searchBox input{
+    width: 490px;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    border: none;
+    text-indent: 30px;
+
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+}
+
+#headSearch .placeholder{
+    position: absolute;
+    line-height: 36px;
+    top: 0px;
+    left: 14px;
+}
+
+#headSearch .placeholder span {
+    color: #9c9c9c;
+    vertical-align: 2px;
+}
+
+#headSearch .camera{
+    position: absolute;
+    right: 20px;
+    font-size: 28px;
+    color: #9c9c9c;
+    top: -2px;
+    cursor: pointer;
+}
+
+#headSearch .btn{
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+    border-radius: 0 20px 20px 0;
+}
+
+#headSearch .hotkey{
+    height: 25px;
+    line-height: 25px;
+}
+
+#headSearch .hotkey a:hover{
+    color: #f50;
+}
