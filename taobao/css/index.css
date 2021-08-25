@@ -521,7 +521,73 @@
 .news{
     width: 890px;
     height: 100px;
-    background-color: darkgoldenrod;
+    background-color:#fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 13px 13px 13px 20px;
+}
+
+.firstLeft .news .hd{
+    margin-top: 15px;
+}
+
+.firstLeft .news .hd h3{
+    width: 129px;
+    height: 26px;
+    background: url(../images/hd-logo.jpeg) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.firstLeft .news .hd p{
+    color: #999;
+    line-height: 24px;
+}
+
+.firstLeft .news .newList{
+    width: 680px;
+    position: relative;
+}
+
+.firstLeft .news .newList img{
+    margin-right: 15px;
+    width: 130px;
+    height: 73px;
+}
+
+.firstLeft .news .newList h4{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstLeft .news .newList h4 a{
+    color: #333;
+}
+
+.firstLeft .news .newList h4 a:hover{
+    color: #f50;
+}
+
+.firstLeft .news .newList p{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.firstLeft .news .newList p a{
+    color: #999;
+}
+
+.firstLeft .news .newList .more{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #999;
+}
+
+.firstLeft .news .newList .more:hover{
+    color: #f40;
 }
 
 .firstRight{
