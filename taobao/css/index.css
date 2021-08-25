@@ -592,6 +592,92 @@
 
 .firstRight{
     width: 290px;
-    height: 621px;
-    background-color: aqua;
+    margin-top: 10px;
+}
+
+/* 用户 */
+.firstRight .user{
+    height: 140px;
+    background-image: url(../images/user-bg.png);
+    padding-top: 5px;
+}
+
+.firstRight .user .avatar{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.firstRight .user .avatar img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.firstRight .user .username{
+    text-align: center;
+    line-height: 16px;
+}
+
+.firstRight .user .members{
+    text-align: center;
+    line-height: 16px;
+    font-size: 0px;
+}
+
+.firstRight .user .members a{
+    display: inline-block;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 6px;
+    margin: 0 2px;
+    padding: 0 10px 0 20px;
+}
+
+.firstRight .user .members a.gold{
+    background: #ffe4dc url(../images/icons.png) 0 -572px no-repeat;
+}
+
+.firstRight .user .members a.club{
+    background: #ffe4dc url(../images/icons.png) 0 -527px no-repeat;
+}
+
+.firstRight .user .btn {
+    text-align: center;
+}
+.firstRight .user .btn button{
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    margin: 12px 2px 0 2px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+}
+
+.firstRight .user .btn .login {
+    width:  92px;
+}
+
+.firstRight .tisOff {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    color: #f40;
+    background: #ffe4dc;
+    text-indent: 10px;
+    text-align: center;
+}
+
+.firstRight .tisOff i{
+    font-size: 12px;
+    vertical-align: 1px;
+    position: relative;
+    left: 30px;
 }
