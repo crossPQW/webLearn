@@ -331,4 +331,144 @@
 
 #nav ul li .line{
     margin: 0px;
+    padding: 0px;
+}
+
+/* 首屏内容 */
+/* 侧边导航 */
+.firstLeft{
+    width: 890px;
+}
+
+.firstLeft .sideNav{
+    width: 190px;
+    height: 522px;
+    background-color:#fff;
+    border: 1px solid #ff5000;
+    box-sizing: border-box;
+    border-top: none;
+    padding-top: 5px;
+}
+
+.firstLeft .sideNav li{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    transition: background-color 0.3s;
+    color: #999;
+}
+
+.firstLeft .sideNav li:hover a{
+    color: #f50;
+}
+
+.firstLeft .sideNav li a:hover{
+    text-decoration: underline;
+}
+
+.firstLeft .sideNav li:hover{
+    background: #ffe4dc;
+    color: #f50;
+}
+
+.firstLeft .sideNav li a{
+    font-size: 14px;
+}
+
+.firstLeft .sideNav li span{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.firstLeft .img1Box{
+    width: 690px;
+    height: 282px;
+    margin-top: 10px;
+}
+
+.firstLeft .img2Box{
+    width: 690px;
+    height: 230px;
+    background-color: chocolate;
+    margin-top: 10px;
+}
+
+.firstLeft .pic{
+    width: 520px;
+    position: relative;
+}
+
+.firstLeft .pic button{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+
+    display: none;
+}
+
+.firstLeft .pic button.leftBtn{
+    left: 0px;
+    border-radius: 0 15px 15px 0;
+}
+
+.firstLeft .pic button.rightBtn{
+    right: 0px;
+    border-radius: 15px 0px 0 15px;
+}
+
+.firstLeft .pic:hover button{
+    display: block;
+}
+
+.firstLeft .pic .circle{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    /* margin-left: -35px; */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 3px 0;
+    font-size: 0px;
+    border-radius: 10px;
+}
+
+.firstLeft .pic .circle span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.firstLeft .pic .circle span.active{
+    background-color: #f50;
+}
+
+.firstLeft .ad{
+    width: 160px;
+}
+
+.firstLeft .ad img{
+    width: 160px;
+}
+/* 淘宝头条 */
+.news{
+    width: 890px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+.firstRight{
+    width: 290px;
+    height: 621px;
+    background-color: aqua;
 }
