@@ -279,3 +279,56 @@
 #headSearch .hotkey a:hover{
     color: #f50;
 }
+
+#nav h2{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #f50;
+}
+
+#nav ul{
+    /* width: 1000px;
+    width: calc(100% - 190px); */
+    margin-left: 190px;
+    height: 30px;
+    /* overflow: hidden; */
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+}
+
+#nav ul li{
+    float: left;
+    line-height: 30px;
+    margin: 0 7px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 5px;
+    position: relative;
+}
+
+#nav ul li:hover::before{
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 12px;
+    background-image: url(../images/qrcode.png);
+    top: -13px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+#nav ul li.size{
+    font-size: 16px;
+}
+
+#nav ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+
+#nav ul li .line{
+    margin: 0px;
+}
