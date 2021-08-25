@@ -175,11 +175,11 @@
 #headSearch .search{
     width: 630px;
     margin: 0px auto;
-    padding-left: 17px;
 }
 
 #headSearch .searchTab{
     height: 22px;
+    padding-left: 17px;
 }
 #headSearch .searchTab li{
     float: left;
@@ -205,7 +205,12 @@
 }
 
 #headSearch .searchContent{
+    width: 628px;
     height: 40px;
+}
+
+#headSearch .searchContent form{
+    margin-bottom: 0px;
 }
 
 #headSearch .searchBox{
