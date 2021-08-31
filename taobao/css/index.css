@@ -731,3 +731,76 @@
 .firstRight .notice .content li.item1{
     width: 100%;
 }
+
+/* 图标区域 */
+.firstRight .icon{
+    width: 100%;
+    height: 232px;
+    background-color: #fff;
+    table-layout: fixed;
+}
+
+.firstRight .icon td{
+    border: 1px solid #f4f4f4;
+    text-align: center;   
+}
+
+.firstRight .icon td span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    background: url(../images/icons.png) no-repeat;
+}
+
+.firstRight .icon td i {
+    line-height: 34px;
+    color: #333;
+    font-size: 12px;
+}
+
+.firstRight .icon .item1 span {
+    background-position: 0 0;
+}
+
+.firstRight .icon .item2 span {
+    background-position: 0 -87;
+}
+
+.firstRight .app{
+    height: 111px;
+    background: #fff;
+}
+
+.firstRight .app .title{
+    height: 30px;
+    line-height: 30px;
+}
+
+.firstRight .app h3 {
+    font-size: 14px;
+    padding-left: 14px;
+}
+
+.firstRight .app a{
+    margin-right: 10px;
+}
+
+.firstRight .app a:hover{
+    color: #f40;
+}
+
+.firstRight .app .appIcon{
+    text-align: center;
+    font-size: 0px;
+}
+
+.firstRight .app .appIcon li {
+    display: inline-block;
+    margin: 0 10px 8px 10px;
+}
+
+.firstRight .app .appIcon li img {
+    width: 32px;
+    height: 32px;
+}
